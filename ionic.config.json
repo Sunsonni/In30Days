@@ -1,0 +1,7 @@
+{
+  "name": "In30Days",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
