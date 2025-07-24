@@ -9,6 +9,8 @@
 <ion-content [fullscreen]="true">
   <div id="container">
     <strong>Day - {{currDay()}}</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <br />
+    <p>{{story()}}</p>
+    <ion-button (click)="advanceStory()">click here</ion-button>
   </div>
 </ion-content>
